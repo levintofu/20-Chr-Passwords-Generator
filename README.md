@@ -15,7 +15,7 @@ def generate_passwords(words):
     return all_combinations
 
 # wordlist.txt file
-with open('C:/Users/TC/AppData/Local/Programs/Python/Python310/wordlist.txt', 'r') as f:
+with open('[WORDLIST DIRECTORY]/wordlist.txt', 'r') as f:
     words = [line.strip() for line in f]
 
 # with open('wordlist.txt', 'r') as f:
